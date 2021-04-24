@@ -84,6 +84,8 @@ int main(int argc, char const *argv[]) {
     result = vkCreateDevice(gpus[0], &device_info, NULL, &device);
     assert(("Error creating device", result == VK_SUCCESS));
 
+// vkCreateCommandPool
+
 
     vkDestroyInstance(instance, NULL);
     return 0;
