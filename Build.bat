@@ -14,6 +14,6 @@ if not exist %VS2019TOOLS% (
 
 call %VS2019TOOLS%
 
-msbuild C:\dev\Engine\build\ALL_BUILD.vcxproj
+msbuild .\build\ALL_BUILD.vcxproj
 
 exit
