@@ -1,4 +1,5 @@
 # Graphics-Engine
+So far just following https://vulkan.lunarg.com/doc/view/1.2.135.0/windows/tutorial/html/00-intro.html
 
 ## Requires
 - VulkanSDK
